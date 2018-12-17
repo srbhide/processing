@@ -1,3 +1,8 @@
+ //<-------------------------- Demo of Synthesis of a rotating field ---------------------------->
+ //Two breathing fields at quadrature combine to create a rotating field.
+ // It is interesting to note that the rotating field is of constant magnitude and frequency, even though the constituent
+ // fields are continuously changing. This magic is purely due to trigonometry because sin(x)*sin(x) + cos(x)*cos(x) =1 
+ // Coding the arrows is a headache, but finally got it!
  int dir=1;
 int xmax=100;
 float xPos=0.0;
